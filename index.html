@@ -1,9 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Photo Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+    <!-- HTML Structure -->
+    <div class="header">
+        <h1 style="font-family:'Courier New'"> <b>Pixel Eye</b></h1>
+        <p><i><b>🪶 Developed By Dee</b></i></p>
+        <input type="text" id="image-url" placeholder="Enter Image URL">
+        <button onclick="addImage()">Add Image</button>
+        <button onclick="openDropModal()">Drop</button> <!-- Drag and Drop Button -->
+    </div>
+
+    <!-- Search Button and Bar -->
+    <div class="search-container">
+        <button class="search-button" onclick="toggleSearchBar()">
+            <i class="fas fa-search"></i> <!-- Font Awesome search icon -->
+        </button>
+        <input type="text" id="search-bar" class="search-bar" placeholder="Search descriptions..." oninput="searchImages()">
+    </div>
+
+    <div class="gallery" id="gallery"></div>
+
+    <!-- Zoomed Image Modal -->
+    <div class="zoomed-image" id="zoomedImage">
+        <span class="close" onclick="closeZoomedImage()">×</span>
+        <img id="zoomedImageContent" src="">
+    </div>
+
+    <!-- Description Modal -->
+    <div class="description-modal" id="descriptionModal">
+        <div class="description-modal-content">
+            <h3>Add Description</h3>
+            <input type="text" id="descInput" placeholder="Enter description">
+            <button class="save-desc-btn" onclick="saveDescription()">Save</button>
+        </div>
+    </div>
+
+    <!-- Share Modal -->
+    <div class="share-modal" id="shareModal">
+        <div class="share-modal-content">
+            <span class="close" onclick="closeShareModal()">×</span>
+            <h3>Share Image Link</h3>
+            <input type="text" id="shareLinkInput" readonly>
+            <button class="copy-link-btn" onclick="copyShareLink()">Copy Link</button>
+        </div>
+    </div>
+
+    <!-- Drag and Drop Modal -->
+    <div class="drop-modal" id="dropModal">
+        <div class="drop-modal-content">
+            <span class="close" onclick="closeDropModal()">×</span>
+            <h3>Drop Image Here</h3>
+            <div class="drop-zone" id="dropZone">
+                <p>Drag & Drop your image here</p>
+                <p>or</p>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <label for="fileInput" class="file-input-label">Choose Image</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+<script src="script.js"></script>
 
 </body>
 </html>

@@ -93,20 +93,20 @@
         }
 
         function openShareModal(url) {
-            document.getElementById("shareLinkInput").value = url;
-            document.getElementById("shareModal").style.display = "flex";
-        }
+    document.getElementById("shareLinkInput").value = url;
+    document.getElementById("shareModal").style.display = "flex";
+}
 
-        function closeShareModal() {
-            document.getElementById("shareModal").style.display = "none";
-        }
+function closeShareModal() {
+    document.getElementById("shareModal").style.display = "none";
+}
 
-        function copyShareLink() {
-            const shareLinkInput = document.getElementById("shareLinkInput");
-            shareLinkInput.select();
-            document.execCommand("copy");
-            alert("Link copied to clipboard!");
-        }
+function copyShareLink() {
+    const shareLinkInput = document.getElementById("shareLinkInput");
+    shareLinkInput.select();
+    document.execCommand("copy");
+    alert("Link copied to clipboard!");
+}
 
         /* Search Functionality */
         function toggleSearchBar() {

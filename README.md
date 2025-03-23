@@ -1,12 +1,13 @@
 # **_⚡The Pixel Eye: Capture Every Moment_**
-
-Pixel Eye is a modern, interactive photo gallery web application designed to showcase and manage a collection of images. It allows users to add images via URL or by uploading files directly from their device. The gallery supports features like adding descriptions, searching images, deleting images, and sharing image links. Built with HTML, CSS, and JavaScript, Pixel Eye is a lightweight and user-friendly tool for organizing and displaying photos. The most important functionality is of this application is, it stores your data locally (in browser), so you can store as many photoes as you want without thinking about storage problem.
 ---
-## **Experience it by (⚡Clicking Here!)[https://pixel-eye.vercel.app/]**
+
+## **Experience it by [⚡Clicking Here!](https://pixel-eye.vercel.app/)**
 
 ---
 
 ## **The Purpose: Why You Should Use It**
+
+Pixel Eye is a modern, interactive photo gallery web application designed to showcase and manage a collection of images. It allows users to add images via URL or by uploading files directly from their device. The gallery supports features like adding descriptions, searching images, deleting images, and sharing image links. Built with HTML, CSS, and JavaScript, Pixel Eye is a lightweight and user-friendly tool for organizing and displaying photos. The most important functionality is of this application is, it stores your data locally (in browser), so you can store as many photoes as you want without thinking about storage problem.
 
 Pixel Eye is perfect for anyone who wants to:
 - **Organize Photos**: Easily manage and display a collection of images in a clean and visually appealing gallery.
@@ -92,7 +93,7 @@ While Pixel Eye is designed to be user-friendly and functional, there are a few 
 - **Large Images**: Uploading very large images (e.g., high-resolution photos) may slow down the gallery, especially on low-end devices or browsers with limited resources.
 - **Solution**: Resize images before uploading to ensure optimal performance.
 
-### **5. Security Considerations**
+### **4. Security Considerations**
 - **External URLs**: Be cautious when adding images from external URLs. Malicious URLs or scripts could potentially harm your system.
 - **Solution**: Only use trusted sources for image URLs.
 

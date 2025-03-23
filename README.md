@@ -1,6 +1,6 @@
-# ⚡The Pixel Eye: Capture Every Moment
+# **_⚡The Pixel Eye: Capture Every Moment_**
 
-Pixel Eye is a modern, interactive photo gallery web application designed to showcase and manage a collection of images. It allows users to add images via URL or by uploading files directly from their device. The gallery supports features like adding descriptions, searching images, deleting images, and sharing image links. Built with HTML, CSS, and JavaScript, Pixel Eye is a lightweight and user-friendly tool for organizing and displaying photos. The most important functionality is of this application is, it stores your data locally (in browser), so you can store as many photoes as you want without thinking about storage problem. 
+Pixel Eye is a modern, interactive photo gallery web application designed to showcase and manage a collection of images. It allows users to add images via URL or by uploading files directly from their device. The gallery supports features like adding descriptions, searching images, deleting images, and sharing image links. Built with HTML, CSS, and JavaScript, Pixel Eye is a lightweight and user-friendly tool for organizing and displaying photos. The most important functionality is of this application is, it stores your data locally (in browser), so you can store as many photoes as you want without thinking about storage problem.
 ---
 ## **Experience it by (⚡Clicking Here!)[https://pixel-eye.vercel.app/]**
 
